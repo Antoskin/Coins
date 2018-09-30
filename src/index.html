@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>coins</title>
+</head>
+<body>
+  
+
+    <div id="app">
+        <section class="select-area">
+            <p class="select-area--title">Select currency to exhange:</p>
+            <div class="select-area--drop-down">
+                <!-- DROP-DOWN -->
+                <div class="drop-down">
+                    <div class="drop-down--display">USD</div>
+                    <div class="drop-down__list">
+                        <p class="drop-down__list--item">UAH</p>
+                        <p class="drop-down__list--item">USD</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cards">
+            <!-- card Etherium -->
+            <div class="cards__item">
+                    <p class="cards__item--title">etherium</p>
+            </div>
+            <!-- card -->
+            <div class="cards__item">
+                    <p class="cards__item--title">Litecoin</p>
+            </div>
+            <!-- card Bitckoin -->
+            <div class="cards__item">
+                    <p class="cards__item--title">bitcoin</p>
+                    <div class="cards__item--thumb">
+                      
+                    </div>
+                    <ul class="cards__item_data">
+                        <li class="li cards__item_data--price">
+                            <!-- curent Price -->
+                            <p>Price:</p>
+                            <span>-</span>
+                        </li>
+                        <li  class="li cards__item_data--switcher">
+                            <!-- switcher from money to precent -->
+                                <p>Percent change</p>
+                                <span> 
+                                        <input type="checkbox" id="switch" class="" /><label for="switch"></label> 
+                                </span>
+                        </li>
+                    </ul>
+                    <ul class="cards__item_data" id="target">
+                        <!-- render from js -->
+                    </ul>
+            </div>
+        </section> 
+    </div>
+    
+</html>
