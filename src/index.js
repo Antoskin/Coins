@@ -1,6 +1,5 @@
 import $ from 'jquery'
 import renderData from './scripts/renderData'
-
 import style from './stylesheets/style.scss';
 
 
